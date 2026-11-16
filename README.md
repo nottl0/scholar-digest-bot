@@ -36,4 +36,4 @@ The included workflow sends a digest daily at 08:00 UTC and can also be started 
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
 
-The workflow runs `digest_bot.py --now`; failures produce a nonzero exit status. Keep `.env` and all credentials out of Git.
+The workflow runs `digest_bot.py --now`; failures produce a nonzero exit status. I run it locally on schedule instead.
